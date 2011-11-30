@@ -1,0 +1,191 @@
+body {
+	font: normal small Helvetica, Arial, sans-serif;
+}
+
+.event-calendar h2,
+.events-calendar h2 {
+	background-position: 0 -83px;
+	position: relative;
+	text-align: center;
+}
+
+.event-calendar h2 span,
+.events-calendar h2 span {
+	cursor: pointer;
+	height: 11px;
+	left: 5px;
+	margin-top: -5px;
+	position: absolute;
+	top: 50%;
+	width: 8px;
+}
+
+.event-calendar h2 .next,
+.events-calendar h2 .next {
+	background-position: 0 -95px;
+	left: auto;
+	right: 5px;
+}
+
+.events-calendar table {
+	border-collapse: inherit;
+	border-spacing: 1px;
+	color: #fff;
+	width: 100%;
+}
+
+.events-calendar span,
+.events-calendar th {
+	text-transform: uppercase;
+}
+
+.events-calendar th {
+	color: #999;
+	line-height: 37px;
+}
+
+.events-calendar td {
+	background-color: #1D1D1E;
+	border: 1px solid #313132;
+	height: 88px;
+	padding: 8px;
+	vertical-align:top;
+}
+
+.events-calendar sup {
+	float: right;
+	font-size: 110%;
+}
+
+.events-calendar span {
+	display: block;
+	font-size: 120%;
+}
+
+.events-calendar sup + span {
+	color: #EC008C;
+	font-size: 240%;
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+.events-calendar .has-events {
+	background-color: #000;
+	cursor: pointer;
+}
+
+.events-calendar-search h3 {
+	font-size: 130%;
+	margin-bottom: 2px;
+}
+
+.events-calendar-search hr {
+	border-color: #4D4D4D;
+	border-style: solid;
+	margin: 10px 0 13px;
+}
+
+.events-calendar-search input[type='text'] {
+	width: 136px;
+}
+
+.events-calendar-search .criteria input[type='image'] {
+	left: 5px;
+	position: relative;
+	top: 8px;
+}
+
+.events-calendar-search input[placeholder='Age group'] {
+	background-position: 85px -1px;
+	margin-left: 15px;
+	width: 94px !important;	
+}
+
+.events-calendar-search .date-icon {
+	cursor: pointer;
+	display: inline-block;
+	height: 15px;
+	left: 5px;
+	position: relative;
+	top: 3px;
+	width: 15px;
+}
+
+.events-calendar-search .icon-arrow {
+	margin-left: 9px;
+}
+
+.dialog {
+	border: 1px solid #fff;
+	color: #fff;
+	position: relative;
+	visibility: visible !important;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  	-o-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.dialog.hide {
+	display: none; /* IE7 absolutely freaks without this setting */
+	visibility: hidden !important;
+}
+
+.dialog .item-details {
+	overflow: hidden;
+	padding: 8px;
+}
+
+.dialog .item-details p {
+	font-weight: bold;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.dialog .item-details p {
+	color: #EC008C;
+}
+
+.dialog .item-details span,
+.dialog .item-details .title {
+	color: #fff;
+}
+
+.dialog .item-details span + span {
+	color: #999;
+}
+
+.dialog .item-details .title {
+	font-size: 120%;
+}
+
+.dialog .item-details p a {
+	text-transform: none;
+}
+
+.dialog.event-calendar {
+	width: 382px;
+}
+
+.dialog.event-calendar section {
+	background: #1b1b1b;
+}
+
+.dialog.event-calendar hr {
+	border-color: #000;
+	border-style: solid;
+	border-width: 3px 0 0;
+	margin: 5px 0;
+}
+
+.position {
+	left: 0;
+	top: 0;
+	position: absolute;
+}
